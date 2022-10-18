@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+.main{
+    background-color: lightpink;
+    height: 100%;
+}
+.main .body {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+.main .body .header{
+    background-color: #ed28a2;
+    color: white;
+    padding: 20px;
+    
+}
+.main .body .header img{
+    width: 100px;
+    float:left;
+}
+.main .body .header h1{
+    text-align: center;
+}
+.main .body .menu ul li{
+    padding: 10px;
+    color: rgb(224, 12, 199);
+    
+}
+.main .body .menu ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.main .body .contents{
+    display: flex;
+}
