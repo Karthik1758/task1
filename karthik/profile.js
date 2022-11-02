@@ -12,6 +12,8 @@ $("document").ready(()=>{
             $("#Cell").html(data.results[0].cell)
             $("#Nationality").html(data.results[0].nat)
             $("#ID").html(data.results[0].id.name+" "+data.results[0].id.value)
+            $("#Address").html(data.results[0].location.street.number+" "+data.results[0].location.street.name+" "+data.results[0].location.city+" "+data.results[0].location.state+" "+data.results[0].location.country)
+
 
         }
     });
